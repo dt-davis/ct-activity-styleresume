@@ -1,0 +1,44 @@
+* {
+    padding: 1px;
+    font-family: sans-serif;
+ /*   border: dotted red;*/
+}
+
+
+#headshot {
+    float: left;
+    background-color: black;
+    width: 165px;
+}
+
+#name {
+    float: inline-end;
+    background-color: black;
+    color: white;
+}
+
+#contactDetails {
+    background-color: black;
+    color: white;
+}
+
+#mainArea .sectionTitle{
+    background-color: rgb(200, 200, 200);
+}
+
+.sectionTitle {
+    border: 8px solid black;
+}
+
+.sectionContent {
+    border: 4px solid gray;
+}
+
+.keySkills {
+    list-style-position: inside;
+}
+
+article {
+    border: 3px solid rgb(210 , 210, 210);
+}
+

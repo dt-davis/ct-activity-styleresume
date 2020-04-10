@@ -9,6 +9,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 
 html, body {
 	font-size: 16px;
+	background-color: #f3f3f3;
+	font-family: 'Arail';
 }
 
 .clear {
@@ -19,6 +21,7 @@ p {
 	font-size: 1em;
 	line-height: 1.4em;
 	margin-bottom: 20px;
+	font-family:  helvetica;
 }
 
 #cv {
@@ -29,12 +32,14 @@ p {
 
 .mainDetails {
 	padding: 25px 35px;
+	border-bottom: 2px solid #cf8a05;
 }
 
 #name h1 {
 	font-size: 2.5em;
 	font-weight: 700;
 	margin-bottom: -6px;
+	font-family: 'Rokkitt';
 }
 
 #name h2 {
@@ -64,7 +69,15 @@ p {
 
 #contactDetails {
 	float: right;
+	text-decoration: none;
+	color: #181818;
+	font-family: 'Lato';
 }
+
+#contactDetails a {
+	color: #181818;
+}
+
 
 #contactDetails ul {
 	list-style-type: none;
@@ -85,6 +98,7 @@ p {
 
 section {
 	padding: 20px 0 0;
+	border-bottom: 2px solid #dedede;
 }
 
 section:first-child {
@@ -108,17 +122,21 @@ section:last-child {
 .sectionTitle h1 {
 	font-style: italic;
 	font-size: 1.5em;
+	color: #cf8a05;
+	font-family: 'Rokkitt';
 }
 
 .sectionContent h2 {
 	font-size: 1.5em;
 	margin-bottom: -2px;
+	font-family: 'Rokkitt';
 }
 
 .subDetails {
 	font-size: 0.8em;
 	font-style: italic;
-	margin-bottom: 3px;
+	margin-bottom: 3px;;
+	font-family: 'Lato';
 }
 
 .keySkills {
@@ -126,6 +144,7 @@ section:last-child {
 	column-count: 3;
 	margin-bottom: 20px;
 	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .keySkills ul li {
